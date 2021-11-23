@@ -1,0 +1,17 @@
+// colors
+$colorTxt:#f0a500;
+$colorTxtHigh:hsl(224, 100%, 47%);
+$colorTxtLow:hsl(20, 100%, 47%);
+$colorBg:hsl(206, 26%, 27%);
+$colorBgLight:#597c97;
+$colorBalise: rgb(8, 31, 48);
+$colorBaliseLight: hsl(206, 71%, 21%);
+$colorBaliseDark: #061623;
+$colorDark:#000000;
+
+
+$colorGrad: linear-gradient($colorBgLight 0%, $colorBaliseDark 100%);
+$colorGradReverse: linear-gradient($colorBaliseDark 0%, $colorBgLight 100%);
+$colorGradAngle: linear-gradient(150deg, $colorBgLight 0%, rgba(47, 76, 98, 1) 31%, $colorBaliseDark 100%);
+$colorGradBright: linear-gradient(90deg, $colorTxtHigh 0%, $colorTxtLow 100%);
+$colorGradBrightReverse: linear-gradient(280deg, $colorTxtHigh 0%, $colorTxtLow 100%);
