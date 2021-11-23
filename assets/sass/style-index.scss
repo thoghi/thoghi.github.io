@@ -1,0 +1,304 @@
+@import "variables.scss";
+
+
+
+header#headerIndex {
+    width: 100%;
+    height: 45vh;
+    padding: 4% 20%;
+    margin-bottom: 30px;
+    background: $colorGradReverse;
+    background-size: 200% 200%;
+    animation: animatedBg 5s ease infinite;
+
+    @keyframes animatedBg {
+        0% {
+            background-position: 10% 0%
+        }
+
+        50% {
+            background-position: 80% 100%
+        }
+
+        100% {
+            background-position: 10% 0%
+        }
+    }
+
+    h1,
+    h2 {
+        color: $colorTxt;
+        text-shadow: 1px 1px 2px $colorBaliseDark;
+    }
+
+    position: relative;
+    overflow: hidden;
+
+    #headerMenu {
+        display: none;
+    }
+
+    #headerHead {
+        position: inherit;
+        z-index: 2;
+    }
+
+    #hexagomBg {
+        position: absolute;
+        top: -5%;
+        left: 0;
+        z-index: 1;
+
+        #hexagonId,
+        #hexagonIdSide {
+            display: flex;
+            margin-bottom: -18px;
+
+            div {
+                display: flex;
+                justify-content: space-between;
+
+                .hexagon {
+                    position: relative;
+                    width: 60px;
+                    height: 34.64px;
+                    background-color: transparent;
+                    margin: 17.32px 0;
+                    border-left: solid 5px $colorDark;
+                    border-right: solid 5px $colorDark;
+                }
+
+                // .hexagon:hover {
+                //     border-left: solid 5px red;
+                //     border-right: solid 5px red;
+
+                //     ::before:hover {
+                //         border-top: solid 7.0711px red;
+                //         border-right: solid 7.0711px red;
+                //     }
+
+                //     ::after:hover {
+                //         border-bottom: solid 7.0711px red;
+                //         border-left: solid 7.0711px red;
+                //     }
+                // }
+
+                .hexagon:before,
+                .hexagon:after {
+                    content: "";
+                    position: absolute;
+                    z-index: 1;
+                    width: 42.43px;
+                    height: 42.43px;
+                    -webkit-transform: scaleY(0.5774) rotate(-45deg);
+                    -ms-transform: scaleY(0.5774) rotate(-45deg);
+                    transform: scaleY(0.5774) rotate(-45deg);
+                    background-color: inherit;
+                    left: 3.7868px;
+                }
+
+                .hexagon:before {
+                    top: -21.2132px;
+                    border-top: solid 7.0711px $colorDark;
+                    border-right: solid 7.0711px $colorDark;
+                }
+
+                .hexagon:after {
+                    bottom: -21.2132px;
+                    border-bottom: solid 7.0711px $colorDark;
+                    border-left: solid 7.0711px $colorDark;
+                }
+
+            }
+
+
+        }
+
+        #hexagonIdSide {
+            margin-left: -29px;
+        }
+
+    }
+
+}
+
+#mainIndex {
+    #mainSection {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: space-evenly;
+
+        #cvPresId,
+        #projectsId {
+            width: 40%;
+
+            #cvPresIdForm {}
+
+            #projectsIdForm {}
+
+            button {
+                height: 40vh;
+                width: 100%;
+                // padding: 10px;
+                background-color: rgba(0, 0, 0, 0);
+                display: inline-block;
+                cursor: pointer;
+                font-family: Arial;
+                font-size: 17px;
+                padding: 7px 25px;
+                text-decoration: none;
+                text-shadow: rgb(225 226 237) 0px 1px 0px;
+
+                h3 {
+                    margin: 0;
+                    color: $colorTxt;
+                }
+            }
+
+        }
+    }
+
+}
+
+// tutorial https://www.youtube.com/watch?v=1zFlSLD01Uw&ab_channel=OnlineTutorials
+
+.container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+
+    .box {
+        position: relative;
+        color: $colorTxt;
+        background: $colorBalise;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 20px 30px;
+        transition: 0.5s;
+
+        span {
+            position: absolute;
+            top: 6px;
+            left: 6px;
+            right: 6px;
+            bottom: 6px;
+            background: rgba(8, 31, 48, 0.6);
+            z-index: 2;
+        }
+
+        span::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 50%;
+            height: 100%;
+            background-color: rgba(8, 31, 48, 0.1);
+            pointer-events: none;
+
+        }
+
+        .content {
+            position: relative;
+            z-index: 10;
+            padding: 20px 40px;
+        }
+
+    }
+
+    .box:hover {
+        transform: translateY(-20px);
+    }
+
+    .box::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: $colorGradBright;
+    }
+
+    .box::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: $colorGradBright;
+        filter: blur(30px);
+    }
+
+    .box:nth-child(2)::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: $colorGradBrightReverse;
+    }
+
+    .box:nth-child(2)::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: $colorGradBrightReverse;
+        filter: blur(30px);
+    }
+
+}
+
+@media (max-width: 700px) {
+    body {
+        padding: 0;
+    }
+
+    header#headerIndex {
+        padding: 0;
+        animation: none;
+
+        #headerMenu {
+            display: block;
+            position: fixed;
+            width: 100%;
+            z-index: 11;
+            padding: 2% 5%;
+            background-color: $colorBalise;
+
+            ul {
+                list-style: none;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+
+                a {
+                    color: $colorTxt;
+                }
+            }
+        }
+        #headerHead{
+            margin-top: 22%;
+        }
+    }
+
+    #mainIndex {
+        #mainSection {
+
+            #cvPresId,
+            #projectsId {
+                width: 85%;
+            }
+
+        }
+    }
+}
