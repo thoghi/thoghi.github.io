@@ -115,7 +115,7 @@ header#headerIndex #hexagomBg #hexagonIdSide {
 #mainIndex #mainSection #cvPresId button h3,
 #mainIndex #mainSection #projectsId button h3 {
   margin: 0;
-  color: #f0a500;
+  color: #f0a400;
 }
 
 .container {
@@ -128,7 +128,7 @@ header#headerIndex #hexagomBg #hexagonIdSide {
 .container .box {
   position: relative;
   color: #f0a500;
-  background: #081f30;
+  background: #061f30;
   display: flex;
   justify-content: center;
   align-items: center;
