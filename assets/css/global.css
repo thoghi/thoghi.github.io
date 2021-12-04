@@ -32,62 +32,7 @@ header#headerIndex #headerHead {
   position: inherit;
   z-index: 2;
 }
-header#headerIndex #hexagomBg {
-  position: absolute;
-  top: -5%;
-  left: 0;
-  z-index: 1;
-}
-header#headerIndex #hexagomBg #hexagonId,
-header#headerIndex #hexagomBg #hexagonIdSide {
-  display: flex;
-  margin-bottom: -18px;
-}
-header#headerIndex #hexagomBg #hexagonId div,
-header#headerIndex #hexagomBg #hexagonIdSide div {
-  display: flex;
-  justify-content: space-between;
-}
-header#headerIndex #hexagomBg #hexagonId div .hexagon,
-header#headerIndex #hexagomBg #hexagonIdSide div .hexagon {
-  position: relative;
-  width: 60px;
-  height: 34.64px;
-  background-color: transparent;
-  margin: 17.32px 0;
-  border-left: solid 5px #000000;
-  border-right: solid 5px #000000;
-}
-header#headerIndex #hexagomBg #hexagonId div .hexagon:before,
-header#headerIndex #hexagomBg #hexagonId div .hexagon:after,
-header#headerIndex #hexagomBg #hexagonIdSide div .hexagon:before,
-header#headerIndex #hexagomBg #hexagonIdSide div .hexagon:after {
-  content: "";
-  position: absolute;
-  z-index: 1;
-  width: 42.43px;
-  height: 42.43px;
-  -webkit-transform: scaleY(0.5774) rotate(-45deg);
-  -ms-transform: scaleY(0.5774) rotate(-45deg);
-  transform: scaleY(0.5774) rotate(-45deg);
-  background-color: inherit;
-  left: 3.7868px;
-}
-header#headerIndex #hexagomBg #hexagonId div .hexagon:before,
-header#headerIndex #hexagomBg #hexagonIdSide div .hexagon:before {
-  top: -21.2132px;
-  border-top: solid 7.0711px #000000;
-  border-right: solid 7.0711px #000000;
-}
-header#headerIndex #hexagomBg #hexagonId div .hexagon:after,
-header#headerIndex #hexagomBg #hexagonIdSide div .hexagon:after {
-  bottom: -21.2132px;
-  border-bottom: solid 7.0711px #000000;
-  border-left: solid 7.0711px #000000;
-}
-header#headerIndex #hexagomBg #hexagonIdSide {
-  margin-left: -29px;
-}
+
 
 #mainIndex #mainSection {
   display: flex;
