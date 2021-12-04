@@ -22,7 +22,7 @@ header#headerIndex {
 }
 header#headerIndex h1,
 header#headerIndex h2 {
-  color: #f0a500;
+  color: red;
   text-shadow: 1px 1px 2px #061623;
 }
 header#headerIndex #headerMenu {
@@ -199,7 +199,7 @@ header#headerIndex #hexagomBg #hexagonIdSide {
 }
 .container .box {
   position: relative;
-  color: #f0a500;
+  color: red;
   background: #061f30;
   display: flex;
   justify-content: center;
@@ -297,7 +297,7 @@ header#headerIndex #hexagomBg #hexagonIdSide {
     align-items: center;
   }
   header#headerIndex #headerMenu ul a {
-    color: #f0a500;
+    color: red;
   }
   header#headerIndex #headerHead {
     margin-top: 22%;
@@ -342,13 +342,13 @@ header#headerIndex #hexagomBg #hexagonIdSide {
 #mainProjects #schoolProjetcs ul a,
 #mainProjects #myProjetcs ul a,
 #mainProjects #otherProjetcs ul a {
-  color: #f0a500;
+  color: red;
 }
 #mainProjects #schoolProjetcs ul .dropbtn,
 #mainProjects #myProjetcs ul .dropbtn,
 #mainProjects #otherProjetcs ul .dropbtn {
   background-color: #081f30;
-  color: #f0a500;
+  color: red;
   padding: 16px;
   font-size: 16px;
   border: none;
@@ -377,7 +377,7 @@ header#headerIndex #hexagomBg #hexagonIdSide {
 #mainProjects #schoolProjetcs ul .dropdown-content a,
 #mainProjects #myProjetcs ul .dropdown-content a,
 #mainProjects #otherProjetcs ul .dropdown-content a {
-  color: #f0a500;
+  color: red;
   padding: 12px 12px;
   text-decoration: none;
   display: block;
@@ -459,8 +459,8 @@ header#headerIndex #hexagomBg #hexagonIdSide {
     box-shadow: none;
   }
   50.1%, 100% {
-    background: #f0a500;
-    box-shadow: 0 0 5px #f0a500, 0 0 15px #f0a500, 0 0 30px #f0a500, 0 0 60px #f0a500, 0 0 90px #f0a500;
+    background: red;
+    box-shadow: 0 0 5px red, 0 0 15px red, 0 0 30px red, 0 0 60px red, 0 0 90px red;
   }
 }
 @keyframes animateTxt {
@@ -469,8 +469,8 @@ header#headerIndex #hexagomBg #hexagonIdSide {
     text-shadow: none;
   }
   50.1%, 100% {
-    color: #f0a500;
-    text-shadow: 0 0 5px #f0a500, 0 0 15px #f0a500, 0 0 30px #f0a500, 0 0 60px #f0a500, 0 0 90px #f0a500;
+    color: red;
+    text-shadow: 0 0 5px red, 0 0 15px red, 0 0 30px red, 0 0 60px red, 0 0 90px red;
   }
 }
 @keyframes hideTxt {
@@ -572,7 +572,7 @@ a {
     align-items: center;
   }
   #headerMenu ul a {
-    color: #f0a500;
+    color: red;
   }
 }
 #headerMenu {
@@ -590,7 +590,7 @@ a {
   align-items: center;
 }
 #headerMenu ul a {
-  color: #f0a500;
+  color: red;
 }
 
 /* ================= ENDS ================ */
@@ -642,7 +642,7 @@ footer svg g :nth-child(2) {
   transition: 0.5s;
 }
 footer svg:hover g :nth-child(3) {
-  text-shadow: 0 0 9px #f0a500;
+  text-shadow: 0 0 9px red;
 }
 footer article {
   width: 30%;
@@ -653,12 +653,12 @@ footer article h4 {
 }
 footer article h4,
 footer article li {
-  color: #f0a500;
+  color: red;
   text-align: start;
 }
 footer article h4 a,
 footer article li a {
-  color: #f0a500;
+  color: red;
 }
 footer article ul {
   list-style: none;
