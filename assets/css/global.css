@@ -68,24 +68,16 @@ header#headerIndex #headerHead {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 40px 0;
+  padding: 35px 0;
 }
 .container .dot {
-  height: 100px;
+  height: 200px;
   width: 50px;
   background-color:red;
   border-radius: 50%;
   display: inline-block;
 }
-.container .dot span {
-  position: absolute;
-  top: 6px;
-  left: 6px;
-  right: 6px;
-  bottom: 6px;
-  background: rgba(8, 31, 48, 0.6);
-  z-index: 2;
-}
+
 
 
 
