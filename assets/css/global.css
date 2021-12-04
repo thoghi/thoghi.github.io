@@ -127,7 +127,7 @@ header#headerIndex #hexagomBg #hexagonIdSide {
 }
 .container .dot {
   height: 100px;
-  width: 100px;
+  width: 50px;
   background-color:red;
   border-radius: 50%;
   display: inline-block;
