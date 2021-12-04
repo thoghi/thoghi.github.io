@@ -62,7 +62,7 @@ header#headerIndex #headerHead {
 .container .dot {
   height: 500px;
   width: 50px;
-  background-color:red;
+  background-color:#aa2020;
   border-radius: 50%;
   display: inline-block;
 }
@@ -85,7 +85,7 @@ header#headerIndex #headerHead {
     width: 100%;
     z-index: 11;
     padding: 2% 5%;
-    background-color: #081f30;
+    background-color: #b5c715;
   }
   header#headerIndex #headerMenu ul {
     list-style: none;
@@ -130,11 +130,7 @@ header#headerIndex #headerHead {
 #mainProjects #otherProjetcs ul {
   width: 100%;
   margin: auto;
-  /* Dropdown Button */
-  /* The container <div> - needed to position the dropdown content */
-  /* Dropdown Content (Hidden by Default) */
-  /* Show the dropdown menu on hover */
-  /* Change the background color of the dropdown button when the dropdown content is shown */
+
 }
 #mainProjects #schoolProjetcs ul a,
 #mainProjects #myProjetcs ul a,
@@ -151,50 +147,7 @@ header#headerIndex #headerHead {
   border: none;
   width: 100%;
 }
-#mainProjects #schoolProjetcs ul .dropdown,
-#mainProjects #myProjetcs ul .dropdown,
-#mainProjects #otherProjetcs ul .dropdown {
-  position: relative;
-  display: inline-block;
-  width: 30%;
-  margin-bottom: 13px;
-}
-#mainProjects #schoolProjetcs ul .dropdown-content,
-#mainProjects #myProjetcs ul .dropdown-content,
-#mainProjects #otherProjetcs ul .dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #334757;
-  width: 100%;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  z-index: 1;
-  /* Links inside the dropdown */
-  /* Change color of dropdown links on hover */
-}
-#mainProjects #schoolProjetcs ul .dropdown-content a,
-#mainProjects #myProjetcs ul .dropdown-content a,
-#mainProjects #otherProjetcs ul .dropdown-content a {
-  color: red;
-  padding: 12px 12px;
-  text-decoration: none;
-  display: block;
-  border-bottom: 1px solid black;
-}
-#mainProjects #schoolProjetcs ul .dropdown-content a:hover,
-#mainProjects #myProjetcs ul .dropdown-content a:hover,
-#mainProjects #otherProjetcs ul .dropdown-content a:hover {
-  background-color: #597c97;
-}
-#mainProjects #schoolProjetcs ul .dropdown:hover .dropdown-content,
-#mainProjects #myProjetcs ul .dropdown:hover .dropdown-content,
-#mainProjects #otherProjetcs ul .dropdown:hover .dropdown-content {
-  display: block;
-}
-#mainProjects #schoolProjetcs ul .dropdown:hover .dropbtn,
-#mainProjects #myProjetcs ul .dropdown:hover .dropbtn,
-#mainProjects #otherProjetcs ul .dropdown:hover .dropbtn {
-  background-color: #103b5c;
-}
+
 
 @media (max-width: 700px) {
   #mainProjects {
