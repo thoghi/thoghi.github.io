@@ -125,15 +125,12 @@ header#headerIndex #hexagomBg #hexagonIdSide {
   align-items: center;
   padding: 40px 0;
 }
-.container .circle {
-  position: relative;
-  color: #f0a500;
-  background: #061f30;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 20px 30px;
-  transition: 0.5s;
+.container .dot {
+  height: 25px;
+  width: 25px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
 }
 .container .box {
   position: relative;
