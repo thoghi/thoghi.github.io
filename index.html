@@ -1,100 +1,88 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Thom ARRIGHI | WEBSITE UNDER CONSTRUCTION</title>
-    <meta name="description" content="Welcome to my website that showcases some of my digital communication creations.">
+    <title>Thom Arrighi | Personal Branding</title>
+    <meta name="description"
+        content="Site personnel de Thom Arrighi : positionnement, compétences, projets et contact pour collaborations en communication digitale et développement front-end.">
     <link rel="stylesheet" href="assets/css/global.css">
     <link rel="shortcut icon" href="assets/img/logo.png" type="image/x-icon">
-
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-FB29JRPQZH"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
-
-        gtag('config', 'G-FB29JRPQZH');
-    </script>
-
 </head>
 
-<body>
-    <header id="headerIndex">
-        <section id="headerMenu">
-            <ul>
-                <li><a href="index.html">
-                        
-                    </a></li>
-                <li><a href="portfolio.html">portfolio</a></li>
-                <li><a href="projects.html">Projects</a></li>
+<body class="brand-body">
+    <header class="site-header">
+        <a class="brand-logo" href="index.html" aria-label="Retour à l'accueil">TA</a>
+        <nav aria-label="Navigation principale">
+            <ul class="site-nav">
+                <li><a href="#positionnement">Positionnement</a></li>
+                <li><a href="#expertise">Expertise</a></li>
+                <li><a href="projects.html">Projets</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
-        </section>
-        <section id="headerHead">
-            <h1>Welcome</h1>
-            <h2>Thom ARRIGHI</h2>
-        </section>
-        
-        </section>
-
+        </nav>
     </header>
 
-    <!-- <img src="assets/img/pexels-mark-dalton-1000283.jpg" alt="Home image"> -->
-
-    <main id="mainIndex">
-        <section id="mainSection" class="container">
-            <article id="cvPresId" class="dot">
-                <form id="cvPresIdForm" action="portfolio.html">
-                    <button type="submit">
-                        
-                        <h3 class="content">Portfolio</h3>
-                    </button>
-                </form>
-            </article>
-            <article id="projectsId" class="dot">
-                <form id="projectsIdForm" action="projects.html">
-                    <button type="submit">
-                        
-                        <h3 class="content"> My projects</h3>
-                    </button>
-                </form>
-            </article>
-
+    <main>
+        <section class="hero-section">
+            <p class="eyebrow">Personal Branding Site</p>
+            <h1>Thom Arrighi</h1>
+            <p class="hero-subtitle">J'aide les équipes et indépendants à transformer leurs idées en expériences digitales
+                claires, crédibles et mémorables.</p>
+            <div class="hero-cta">
+                <a class="btn btn-primary" href="projects.html">Voir mes projets</a>
+                <a class="btn btn-secondary" href="#contact">Me contacter</a>
+            </div>
         </section>
 
+        <section id="positionnement" class="content-section">
+            <h2>Positionnement</h2>
+            <p>Je combine communication digitale, design d'interface et développement front-end pour construire une
+                marque personnelle solide : message clair, identité cohérente et preuve par les projets.</p>
+            <ul class="pill-list">
+                <li>Clarté du message</li>
+                <li>Crédibilité visuelle</li>
+                <li>Expérience utilisateur</li>
+                <li>Orientation résultats</li>
+            </ul>
+        </section>
+
+        <section id="expertise" class="content-section grid-section">
+            <article class="card">
+                <h3>Stratégie de marque</h3>
+                <p>Audit de présence en ligne, storytelling, définition de promesse et ton de communication.</p>
+            </article>
+            <article class="card">
+                <h3>Design web</h3>
+                <p>Création d'interfaces modernes, hiérarchisation des contenus, responsive et cohérence visuelle.</p>
+            </article>
+            <article class="card">
+                <h3>Développement front-end</h3>
+                <p>Intégration HTML/CSS/JS de pages rapides, accessibles et prêtes pour la publication.</p>
+            </article>
+        </section>
+
+        <section class="content-section">
+            <h2>Pourquoi ce site est optimisé pour ton personal branding</h2>
+            <ol class="numbered-list">
+                <li>Message de valeur visible dès le premier écran.</li>
+                <li>Navigation simple avec appel à l'action vers projets et contact.</li>
+                <li>Structure claire pour présenter expertise + preuves.</li>
+            </ol>
+        </section>
     </main>
 
-    <footer>
-        <article>
-            <a href="index.html">
-              
-            
-            </a>
-
-        </article>
-        <article>
-            <h4>Internal links</h4>
-            <ul>
-                <li><a href="portfolio.html">Portfolio</a></li>
-                <li><a href="projects.html">My projects</a></li>
-            </ul>
-        </article>
-        <article>
-            <h4>Contacts</h4>
-            <ul>
-                <li><a href="https://www.linkedin.com/in/thomarrighi/">Linkedin</a></li>
-                <li><a href="https://twitter.com/krixteraz">Twitter</a></li>
-            </ul>
-        </article>
-
-
-
+    <footer id="contact" class="site-footer">
+        <h2>Contact</h2>
+        <p>Disponible pour des missions freelance, collaborations créatives ou opportunités professionnelles.</p>
+        <ul>
+            <li><a href="mailto:thom.arrighi@gmail.com">thom.arrighi@gmail.com</a></li>
+            <li><a href="https://www.linkedin.com/in/thomarrighi/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+            <li><a href="https://twitter.com/krixteraz" target="_blank" rel="noopener noreferrer">X / Twitter</a></li>
+        </ul>
     </footer>
-
-
 </body>
 
 </html>
