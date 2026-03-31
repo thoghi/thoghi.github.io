@@ -13,7 +13,8 @@ Présenter une proposition de valeur claire en ligne :
 ## Structure
 
 - `index.html` : page d'accueil personal branding (positionnement, expertise, CTA, contact).
-- `projects.html` : sélection de projets phares + archive des exercices front-end.
+- `projects.html` : page projets (mise à jour et alignée avec les projets du CV).
+- `projets-cv.html` : page dédiée aux projets présentés dans le CV (version focalisée).
 - `assets/css/global.css` : styles globaux du site principal.
 - `exercises/` : anciens exercices et pages de démonstration.
 
